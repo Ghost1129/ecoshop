@@ -14,6 +14,12 @@ const Navbar = () => {
                 <img className='logo_i' width={'30px'} src="https://img.icons8.com/clouds/344/menu.png" alt="" />
                 </span>
                 </div>
+                <div className="search">
+                <input type="text" placeholder="Search" />
+                <span>
+                    <img className='search_i' width={'18px'} src="https://img.icons8.com/ios/344/search.png" alt="" />
+                </span>
+                </div>
                 </div>
                 <div className="navbarright">
                 <img className='user' width={'30px'} src="https://img.icons8.com/ios/344/gender-neutral-user.png" alt="" />

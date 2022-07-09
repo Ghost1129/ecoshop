@@ -2,6 +2,8 @@
     width: 100%
     height: 100px
     background-color: white
+    border-bottom: 2px solid #e6e6e6
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1)
     .navbar
         padding: 5px
     .navbartop
@@ -9,10 +11,12 @@
         justify-content: space-between
         align-items: center
         margin: 0 10px
+        width: 95%
         
         
         .navbarleft
             display: flex
+            width: 50%
 
             align-items: center
             .hammenu
@@ -34,7 +38,31 @@
                     position: absolute
                     left: 25px
                     top: -2px
-                    
+            .search
+                 
+                 margin: 5px 10px
+                 width: 90%
+                 padding: 0 10px
+                 display: none
+                 align-items: center
+                 height: 30px
+                 border: 1px solid #ccc
+                 border-radius: 5px  
+                 input
+                    border: none
+                    outline: none
+                    width: 100%
+                    height: 80%
+                    color: black
+                    // padding: 10px 20px
+                    border-radius: 5px 0 0 5px
+                
+                 span
+                    background-color: white
+                    border-radius: 0 5px 5px 0
+                    display: flex
+                    align-items: center
+                    height: 80%     
                     
 
         
@@ -54,9 +82,6 @@
             height: 30px
             border: 1px solid #ccc
             border-radius: 5px
-            
-            
-
             input
                 border: none
                 outline: none
@@ -72,6 +97,29 @@
                 display: flex
                 align-items: center
                 height: 80%
+
+    
+    
+@media (min-width: 768px) 
+    .container
+        height: 50px
+        
+        .navbar
+            .navbartop
+                .navbarleft
+                    
+                    
+                
+                .search
+                    display: flex
+            .navbarbottom
+                display: none
+            
+        
+        
+
+
+
         
 
                 
